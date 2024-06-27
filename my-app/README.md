@@ -29,7 +29,46 @@ The Linktree Project is a web application designed to help users manage and shar
 
 To get started with the project, follow these steps:
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/linktree-project.git
-   cd linktree-project
+## Usage
+
+### Creating a Link
+To create a new link:
+1. Log in to your account.
+2. Navigate to the dashboard.
+3. Click on the "Add New Link" button.
+4. Fill in the title and URL fields.
+5. Click "Save" to add the link to your list.
+
+### Editing a Link
+To edit an existing link:
+1. Log in to your account.
+2. Navigate to the dashboard.
+3. Click on the "Edit" button next to the link you want to modify.
+4. Update the title and/or URL fields.
+5. Click "Save" to apply the changes.
+
+### Deleting a Link
+To delete a link:
+1. Log in to your account.
+2. Navigate to the dashboard.
+3. Click on the "Delete" button next to the link you want to remove.
+4. Confirm the deletion in the popup dialog.
+
+## Technologies Used
+- **Frontend**: React, HTML, CSS
+- **Backend**: Node.js, Express
+- **Database**: PostgreSQL
+- **ORM**: Prisma
+- **Authentication**: JWT (JSON Web Tokens)
+
+## Contributing
+Contributions are welcome! Please follow these steps to contribute:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes.
+4. Commit your changes (`git commit -m 'Add some feature'`).
+5. Push to the branch (`git push origin feature-branch`).
+6. Open a pull request.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more information.
